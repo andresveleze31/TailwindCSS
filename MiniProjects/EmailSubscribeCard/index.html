@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-zinc-700">
+    <div
+      class="flex items-center justify-center h-screen max-w-[1200px] mx-auto"
+    >
+      <div
+        class="bg-zinc-800 p-2 mx-6 rounded-2xl flex gap-[1rem] md:flex-col md:pb-[2rem]"
+      >
+        <div class="flex md:flex-col">
+          <img
+            class="object-fit rounded-2xl h-80 hover:scale-105 duration-200"
+            src="./images/image.jpg"
+            alt="Image"
+          />
+        </div>
+
+        <div class="flex flex-col justify-center px-[3rem] md:p-[1rem]">
+          <h1 class="text-white text-2xl font-medium font-serif md:text-center">
+            Get diet and fitness tips in your inbox
+          </h1>
+          <p class="text-white mt-[1rem] max-w-xs md:text-center">
+            Eat better and exercise better. Sign up for the Diet&Fitness
+            newsletter
+          </p>
+
+          <div class="mt-[2rem] flex gap-[1rem] md:flex-col">
+            <input
+              class="text-white py-2 px-4 bg-zinc-800 border border-zinc-600"
+              type="text"
+              placeholder="Enter your email address"
+            />
+            <button
+              class="py-2 px-4 bg-lime-500 rounded-[1rem] hover:bg-lime-300 duration-500"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
