@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600&family=Rokkitt:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="flex items-center justify-center items-center min-h-screen bg-slate-200"
+    >
+      <!--Contenedor Primario-->
+      <div
+        class="flex rounded-[2rem] bg-white mx-[5rem] max-w-[100rem] md:mx-0"
+      >
+        <div class="py-[5rem] px-[10rem] flex items-center md:px-[5rem]">
+          <div>
+            <h1 class="font-mono font-bold">Log In</h1>
+            <p class="text-gray-400 mb-[2rem]">
+              Log in to your account to upload or download pictures, videos or
+              music
+            </p>
+
+            <!--Formulario-->
+
+            <div class="w-full">
+              <input
+                class="mb-[2rem] w-full p-[2rem] border border-slate-300 rounded-lg"
+                type="text"
+                placeholder="Enter your email address"
+              />
+
+              <div
+                class="grid grid-cols-2 gap-[2rem] items-center mb-[4rem] md:grid-cols-1"
+              >
+                <a class="text-cyan-500" href="#">Forgot password?</a>
+                <button
+                  class="bg-cyan-700 text-white py-[2rem] hover:bg-cyan-900 transition-all duration-150"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+
+            <div class="border-t-2 border-t-slate-200 mb-[2rem]">
+              <p class="text-center text-gray-400 text-[1.5rem] mt-[2rem]">
+                Or log in with
+              </p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-[1.5rem] md:grid-cols-1">
+              <button
+                class="shadow-lg flex gap-[2rem] items-center border border-slate-300 px-[2rem] py-[1rem] md:py-[2rem] hover:-translate-y-1 transition-all duration-200"
+              >
+                <img class="w-12" src="images/facebook.png" alt="Face" />
+                <p class="text-[1.5rem]">Facebook</p>
+              </button>
+              <button
+                class="shadow-lg flex gap-[1.5rem] items-center border border-slate-300 px-[2rem] py-[1rem] md:py-[2rem] hover:-translate-y-1 transition-all duration-200"
+              >
+                <img class="w-12" src="images/google.png" alt="Face" />
+                <p class="text-[1.5rem]">Google</p>
+              </button>
+            </div>
+          </div>
+        </div>
+        <img class="w-[430px] md:hidden" src="images/image.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
